@@ -168,29 +168,23 @@ __attribute__((unused))
 // You may add here other checkpoints using the following format:
 // {<block height>, "<block hash>"},
 const std::initializer_list<CheckpointData> CHECKPOINTS = {
- { 0, "010a01ff000180a3c347029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101445d9369c35aaca67f2389a79e9985b2a39ba247c2d40617891e92dd79b77015" }, 
+ 
 
 };
 
 // {BlockIndex , Version}
 const std::map<const uint32_t, const uint8_t> Version = {
-    {100, 1},
-    {200, 2},
-    {300, 3},
-    {400, 4},
+
 };
 
 // {BlockIndex , Version}
 const std::map<const uint32_t, const uint8_t> TestNetVersion = {
-    {60, 1},
-    {120, 2},
-    {180, 3},
-    {240, 4},
+
 };
 
 // {BlockIndex , Hash}
 const std::map<const uint32_t, const char*> VersionCheck = {
-    {0, "010a01ff000180a3c347029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101445d9369c35aaca67f2389a79e9985b2a39ba247c2d40617891e92dd79b77015"}
+    
 };
 
 } // CryptoNote
